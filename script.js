@@ -86,8 +86,12 @@ document.addEventListener('DOMContentLoaded', function() {
             // Check if the current shell has either the live-shells or blank-shells class
             if (currentShell.classList.contains('live-shells') || currentShell.classList.contains('blank-shells')) {
                 document.getElementById('known-shell-fired').disabled = false;
+                document.getElementById('blank-shell-fired').disabled = true;
+                document.getElementById('live-shell-fired').disabled = true;
             } else {
                 document.getElementById('known-shell-fired').disabled = true;
+                document.getElementById('blank-shell-fired').disabled = false;
+                document.getElementById('live-shell-fired').disabled = false;
             }
         }
         bulletCounter++;

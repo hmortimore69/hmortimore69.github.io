@@ -158,7 +158,7 @@ input[type="submit"]:hover {
     background-color: #4e609b;
 }
 
-#known-shell-fired:disabled {
+#known-shell-fired:disabled, #blank-shell-fired:disabled, #live-shell-fired:disabled {
     background-color: #cccccc;
     cursor: not-allowed;
 }
