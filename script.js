@@ -65,20 +65,17 @@ document.addEventListener('DOMContentLoaded', function() {
         // Get all shotgun shells
         const shotgunShells = document.querySelectorAll('.shotgun-shells');
         const currentShellIndex = bulletCounter;
-    
+
         // Check if currentShellIndex is valid
         if (currentShellIndex !== -1 && currentShellIndex < shotgunShells.length) {
             // Create options dynamically from current shell to the end
-            let optionIndex = 0;
             for (let i = currentShellIndex; i < shotgunShells.length; i++) {
                 const shell = shotgunShells[i];
-                optionIndex++;
-                if (shell.classList.contains('unknown-shells')) {
-                    const option = document.createElement('option');
-                    option.value = i;
-                    option.textContent = `${optionIndex}${getNumberSuffix(optionIndex)}`;
-                    burnerPhoneLocationSelect.appendChild(option);
-                }
+                const optionIndex = i - currentShellIndex + 1;
+                const option = document.createElement('option');
+                option.value = i;
+                option.textContent = `${optionIndex}${getNumberSuffix(optionIndex)}`;
+                burnerPhoneLocationSelect.appendChild(option);
             }
         }
     }
@@ -166,7 +163,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
             liveShellsRemainingSpan.textContent = liveCount;
     
-            const nextShell = shotgunMag.querySelector('.unknown-shells');
+            const nextShell = shotgunMag.querySelector('#current-shell');
             if (nextShell) {
                 nextShell.classList.remove('unknown-shells');
                 nextShell.classList.add('live-shells');
@@ -185,7 +182,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
             blankShellsRemainingSpan.textContent = blankCount;
     
-            const nextShell = shotgunMag.querySelector('.unknown-shells');
+            const nextShell = shotgunMag.querySelector('#current-shell');
             if (nextShell) {
                 nextShell.classList.remove('unknown-shells');
                 nextShell.classList.add('blank-shells');
@@ -195,14 +192,38 @@ document.addEventListener('DOMContentLoaded', function() {
             initialiseShellLocations();
             updateNextShell()
         }
-    });
+    }); 
 
 
     // broken
     burnerPhoneForm.addEventListener('submit', function(event) {
         event.preventDefault();
-
         
+        const magLocation = parseInt(burnerPhoneForm.elements['shell-location-select'].value, 10);
+        const liveOrBlank = burnerPhoneForm.elements['shell-live-blank-select'].value;
+
+        console.log(bulletCounter, magLocation);
+        const knownShell = shotgunMag.querySelectorAll('.shotgun-shells')[magLocation];
+
+        if (knownShell.classList.contains('live-shells') || knownShell.classList.contains('blank-shells')) {
+            return;
+        }
+
+        if (liveOrBlank === 'live' && liveShellsRemainingSpan.textContent > 0) {
+            knownShell.classList.add('live-shells');
+            liveShellsRemainingSpan.textContent--;  
+        } else if (liveOrBlank === 'blank' && blankShellsRemainingSpan.textContent > 0) {
+            knownShell.classList.add('blank-shells');
+            blankShellsRemainingSpan.textContent--;  
+        }
+
+        // Check if the shell location is the first one
+        if (magLocation === bulletCounter - 1) {
+            bulletCounter--;
+            updateNextShell();
+        }
+
+        updateBurnerPhoneLiveBlankSelect();
     });
 
     knownShellFiredButton.addEventListener('click', function() {
