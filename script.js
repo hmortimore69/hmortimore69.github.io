@@ -59,15 +59,30 @@ document.addEventListener('DOMContentLoaded', function() {
                 return 'th';
             }
         }
+        
+        burnerPhoneLocationSelect.innerHTML = '';
+        
+        // Get all shotgun shells
+        const shotgunShells = document.querySelectorAll('.shotgun-shells');
+        const currentShellIndex = bulletCounter;
     
-        // Create options dynamically
-        for (let i = 0; i < 8; i++) {
-            const option = document.createElement('option');
-            option.value = i;
-            option.textContent = `${i + 1}${getNumberSuffix(i + 1)}`;
-            burnerPhoneLocationSelect.appendChild(option);
+        // Check if currentShellIndex is valid
+        if (currentShellIndex !== -1 && currentShellIndex < shotgunShells.length) {
+            // Create options dynamically from current shell to the end
+            let optionIndex = 0;
+            for (let i = currentShellIndex; i < shotgunShells.length; i++) {
+                const shell = shotgunShells[i];
+                optionIndex++;
+                if (shell.classList.contains('unknown-shells')) {
+                    const option = document.createElement('option');
+                    option.value = i;
+                    option.textContent = `${optionIndex}${getNumberSuffix(optionIndex)}`;
+                    burnerPhoneLocationSelect.appendChild(option);
+                }
+            }
         }
     }
+    
 
     function updateNextShell() {
         // Remove the green border from any previously marked shell
@@ -143,12 +158,6 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('burner-phone-div').style.display = '';
         
     });
-    
-    function removeLastShellLocation() {
-        if (burnerPhoneLocationSelect.options.length > 0) {
-            burnerPhoneLocationSelect.remove(burnerPhoneLocationSelect.options.length - 1);
-        }
-    }
 
     liveShellFiredButton.addEventListener('click', function() {
         let liveCount = parseInt(liveShellsRemainingSpan.textContent, 10);
@@ -164,7 +173,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
             updateBurnerPhoneLiveBlankSelect();
-            removeLastShellLocation();
+            initialiseShellLocations();
             updateNextShell()
         }
     });
@@ -183,46 +192,21 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
             updateBurnerPhoneLiveBlankSelect();
-            removeLastShellLocation();
+            initialiseShellLocations();
             updateNextShell()
         }
     });
 
 
+    // broken
     burnerPhoneForm.addEventListener('submit', function(event) {
         event.preventDefault();
 
-        const knownShellIndex = parseInt(burnerPhoneForm.elements['shell-location-select'].value, 10);
-        const selectedShellType = burnerPhoneForm.elements['shell-live-blank-select'].value;
-        const shells = shotgunMag.querySelectorAll('.shotgun-shells');
-
-        const targetIndex = shells.length - blankShellsRemainingSpan.textContent - liveShellsRemainingSpan.textContent + knownShellIndex;
-
-        if (targetIndex >= 0 && targetIndex < shells.length) {
-            const shell = shells[targetIndex];
-            shell.classList.remove('unknown-shells', 'live-shells', 'blank-shells');
-
-            if (selectedShellType === 'live') {
-                shell.classList.add('live-shells');
-                liveShellsRemainingSpan.textContent = parseInt(liveShellsRemainingSpan.textContent, 10) - 1
-                updateBurnerPhoneLiveBlankSelect();
-
-
-
-            } else if (selectedShellType === 'blank') {
-                shell.classList.add('blank-shells');
-                blankShellsRemainingSpan.textContent = parseInt(blankShellsRemainingSpan.textContent, 10) - 1
-                updateBurnerPhoneLiveBlankSelect();
-
-            }
-
-            if (burnerPhoneLocationSelect.options.length > 0) {
-                burnerPhoneLocationSelect.remove(burnerPhoneForm.elements['shell-location-select'].value);
-            }
-        }
+        
     });
 
     knownShellFiredButton.addEventListener('click', function() {
+        initialiseShellLocations()
         updateNextShell();
     });
 });
