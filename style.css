@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #242424;
+    padding: 0;
+    margin: 0;
+    color: #f4f4f4;
+}
+
+header {
+    margin: 0px 20px;
+    padding: 10px 10px 0px 10px;
+}
+
+.form-div {
+    display: inline-flex;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0px 20px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 17em;
+}
+
+#shotgun-rounds-form {
+    width: 100%;
+}
+
+
+.forms h3 {
+    margin-top: 0;
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #240000;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    margin-bottom: 0px;
+}
+
+input[type="submit"]:hover {
+    background-color: #890000;
+}
+
+/* SHELL SECTION */
+
+#shotgun-mag {
+    margin: 0 0 0 20px;
+    width: calc(50vw - 20px);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.shotgun-shells {
+    flex: 1;
+    height: 50px;
+    border: 1px solid #000;
+    justify-content: space-evenly;
+}
+
+.shotgun-shells:first-child {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.shotgun-shells:last-child {
+    border-radius: 0px 10px 10px 0px;
+}
+
+#current-shell {
+    border-color: #6db679;
+    border-width: 5px;
+}
+
+.unknown-shells {
+    background-color: #f4f4f4;
+}
+
+.live-shells {
+    background-color: #B66D6E;
+}
+
+.blank-shells {
+    background-color: #494A49;
+}
+
+.game-info {
+    margin: 20px;
+    padding: 10px 10px 0px 10px;
+}
+
+#game-info h3 {
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 10px 0px 0px 10px;
+}
+
+.fired-button {
+    width: 10vw;
+    margin: 10px 0px 0px 20px;
+    padding: 10px;
+    border: solid 1px black;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    margin-bottom: 0px;
+}
+
+#live-shell-fired {
+    background-color: #B66D6E;
+}
+
+#live-shell-fired:hover {
+    background-color: #9b4e4f;
+}
+
+#blank-shell-fired {
+    background-color: #494A49;
+}
+
+#blank-shell-fired:hover {
+    background-color: #3a3b3a;
+}
+
+#known-shell-fired {
+    background-color: #6d7eb6;
+}
+
+#known-shell-fired:hover {
+    background-color: #4e609b;
+}
+
+#known-shell-fired:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+#burner-phone-form {
+    width: 100%;
+}
+
+#burner-phone-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}

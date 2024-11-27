@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Buckshot Roulette Helper</title>
+</head>
+<body>
+    <header>
+        <h1>Buckshot Roulette Tracker</h1>
+    </header>
+
+    <section>
+        <div class="form-div">
+            <form class="forms" id="shotgun-rounds-form">
+                <h3>New Round</h3>
+                
+                <label for="live-count">Live Count</label>
+                <input type="number" name="live-count" placeholder=0 min=0 max=8>
+    
+                <label for="blank-count">Blank Count</label>
+                <input type="number" name="blank-count" placeholder=0 min=0 max=8>
+    
+                <input type="submit" value="Submit Rounds">
+            </form>
+        </div>
+
+        <div id="burner-phone-div" class="form-div" style="display: none">
+            <form class="forms" id="burner-phone-form">
+                <h3>Burner Phone</h3>
+            
+                <label for="shell-location-select">Shell Location</label>
+                <select id="shell-location-select" name="shell-location-select" required>
+                    <option value=0>1st</option>
+                    <option value=1>2nd</option>
+                    <option value=2>3rd</option>
+                    <option value=3>4th</option>
+                    <option value=4>5th</option>
+                    <option value=5>6th</option>
+                    <option value=6>7th</option>
+                    <option value=7>8th</option>
+                </select>
+            
+                <label for="shell-live-blank-select">Live/Blank</label>
+                <select id="shell-live-blank-select" name="shell-live-blank-select" required></select>
+            
+                <input type="submit" value="Set Shell">
+            </form>
+        </div>
+    </section>
+    
+
+    <section id="game-progression">
+        <h1 class="game-info">Game</h1>
+
+        <div id="shotgun-mag"></div>
+    
+        <div id="game-info">
+            <h3>Live Shells Remaining: <span id="live-shells-remaining"></span></h3>
+            <button class="fired-button" id="live-shell-fired">Live Shell Fired</button>
+            <br>
+            <h3>Blank Shells Remaining: <span id="blank-shells-remaining"></span></h3>
+            <button class="fired-button" id="blank-shell-fired">Blank Shell Fired</button>
+            <br><br>
+            <button class="fired-button" id="known-shell-fired" disabled>Known Shell Fired</button>
+        </div>
+
+        
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
