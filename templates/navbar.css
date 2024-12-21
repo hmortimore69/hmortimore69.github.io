@@ -24,3 +24,7 @@
 #navbar li:hover {
     background-color: #1b1b1b;
 }
+
+.navbar-active {
+    border-bottom: .2rem solid #1e81d1;
+}

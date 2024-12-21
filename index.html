@@ -3,22 +3,30 @@
 <head>
     <meta charset="UTF-8" />
     <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="templates/navbar.css" rel="stylesheet" type="text/css">
     <title>Directory</title>
 </head>
 <body>
     <div id="navbar">
         <ul>
-            <li><a href="javascript:void(0)">Home</a></li>
+            <li><a class="navbar-active" href="javascript:void(0)">Home</a></li>
             <li><a href="Buckshot-Roulette-Helper/index.html">Buckshot Roulette Helper</a></li>
         </ul>
     <div>
 
     <header>
-        <h1>Directory</h1>
+        <center><h1>Directory</h1></center>
     </header>
 
     <main>
 
+        <div class="carousel">
+            <button class="arrow left" aria-label="Previous">&#8249;</button>
+            <div class="carousel-container" id="carouselContainer"></div>
+            <button class="arrow right" aria-label="Next">&#8250;</button>
+        </div>
+          
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
