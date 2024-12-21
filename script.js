@@ -14,7 +14,7 @@ function renderCarousel(items) {
       <div class="carousel-item">
         <a href="${item.link}" target="_blank">
           <img src="${item.image}" alt="${item.description}" />
-          <div class="hover-card">${item.description}</div>
+          <div class="hover-card"><p>${item.description}</p></div>
         </a>
       </div>
       `
@@ -26,10 +26,10 @@ const leftArrow = document.querySelector('.arrow.left');
 const rightArrow = document.querySelector('.arrow.right');
 
 leftArrow.addEventListener('click', () => {
-  carouselContainer.scrollBy({ left: -150, behavior: 'smooth' });
+  carouselContainer.scrollBy({ left: -170, behavior: 'smooth' });
 });
 
 rightArrow.addEventListener('click', () => {
-  carouselContainer.scrollBy({ left: 150, behavior: 'smooth' });
+  carouselContainer.scrollBy({ left: 170, behavior: 'smooth' });
 });
   
