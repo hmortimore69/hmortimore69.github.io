@@ -1,4 +1,3 @@
-// Data for carousel items
 const carouselItems = fetch('config/projects.json')
 .then((response) => response.json())
 .then((data) => renderCarousel(data))

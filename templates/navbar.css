@@ -1,30 +1,50 @@
+/* Navbar container styling */
 #navbar ul {
     width: 100%;
     overflow: hidden;
     display: flex;
     list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    background-color: #242424;
+    margin: 0;
+    padding: 0;
 }
 
 #navbar li {
+    position: relative; /* Needed for positioning the ::after pseudo-element */
     float: left;
     transition: 0.2s ease-in;
+    text-transform: uppercase;
 }
 
 #navbar li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-weight: 700;
 }
 
-#navbar li:hover {
-    background-color: #1b1b1b;
+/* Pseudo-element for underline */
+#navbar li::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Start fully expanded to support transform animations */
+    height: 2px;
+    background-color: #1e81d1; /* Customize underline color */
+    transform: scaleX(0); /* Initially hidden */
+    transform-origin: left; /* Anchor animation to the left */
+    transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), background 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-.navbar-active {
-    border-bottom: .2rem solid #1e81d1;
+/* Hover effect for underline animation */
+#navbar li:hover::after {
+    transform: scaleX(1); /* Expand underline from left to right */
+    transform-origin: left; /* Anchor animation to the left for growing */
+}
+
+/* Unhover effect for vanishing animation */
+#navbar li::after {
+    transform-origin: right; /* Anchor animation to the right for shrinking */
 }

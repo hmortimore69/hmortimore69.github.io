@@ -3,11 +3,11 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #bdbdbd;
+    font-family: Mulish, sans-serif;
+    background-color: #ffffff;
     padding: 0;
     margin: 0;
-    color: black;
+    color: #1b1b1b;
 }
 
 header {
@@ -21,7 +21,7 @@ header {
     border-radius: 10px;
     margin: 0px 20px;
     padding: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 17em;
 }
 
