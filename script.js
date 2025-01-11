@@ -11,7 +11,7 @@ function renderCarousel(items) {
     .map((item) => 
       `
       <div class="carousel-item">
-        <a href="${item.link}" target="_blank">
+        <a href="${item.link}">
           <img src="${item.image}" alt="${item.description}" />
           <div class="hover-card"><p>${item.description}</p></div>
         </a>

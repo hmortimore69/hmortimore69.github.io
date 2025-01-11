@@ -39,6 +39,8 @@ body {
   width: 170px;
   height: 300px; 
   overflow: visible;
+  box-shadow: 0 0 .5em rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
 }
 
 .carousel-item img {

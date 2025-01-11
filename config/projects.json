@@ -1,12 +1,12 @@
 [
   {
     "image": "images/buckshotRoulette.jpg",
-    "link": "Buckshot-Roulette-Helper/index.html",
+    "link": "buckshot-roulette/index.html",
     "description": "Buckshot Roulette Assistant"
   },
   {
     "image": "images/wordle.jpg",
-    "link": "Wordle/index.html",
+    "link": "wordle/index.html",
     "description": "Wordle Assistant"
   }
 ]
