@@ -14,21 +14,25 @@
         <h6>Last Update: 18th January 2025</h6>
         <center><h1>Minecraft Trading Guide</h1></center>
     </header>
-    
-    <div class="form-div">
-        <form class="minecraft-config-form" id="minecraft-config-form">            
-            <label for="minecraft-edition">Minecraft Edition</label>
-            <select id="minecraft-edition-select" name="minecraft-edition" required>
-                <option value="java">Java</option>
-                <option value="bedrock">Bedrock</option>
-            </select>
+    <section id="trading-information">
+        <div class="form-div">
+            <form class="minecraft-config-form" id="minecraft-config-form">            
+                <label for="minecraft-edition">Minecraft Edition</label>
+                <select id="minecraft-edition-select" name="minecraft-edition" required>
+                    <option value="java">Java</option>
+                    <option value="bedrock">Bedrock</option>
+                </select>
 
-            <label for="minecraft-version">Minecraft Version</label>
-            <select id="minecraft-version-select" name="minecraft-version" required>
+                <label for="minecraft-version">Minecraft Version</label>
+                <select id="minecraft-version-select" name="minecraft-version" required>
 
-            <input type="submit" value="Go">
-        </form>
-    </div>
+                <input type="submit" value="Go" hidden>
+            </form>
+        </div>
+
+        <div id="villager-matrix"></div>
+    </section>
+
 
     <div id="villager-data"></div>
 

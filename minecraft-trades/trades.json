@@ -6,8 +6,9 @@
                 "job-block": ["Blast Furnace", "job-block-images/blast_furnace.png"],
                 "Novice": [
                     {
-                        "Item Wanted": "Coal",
-                        "Default Quantity": "15",
+                        "Item Wanted": [
+                            { "name": "Coal", "quantity": "15" }
+                        ],
                         "Price Multiplier": "0.05",
                         "Item Given": "Emerald",
                         "Quantity": "1",
@@ -15,8 +16,9 @@
                         "Villager XP": "2"
                     },
                     {
-                        "Item Wanted": "Emerald",
-                        "Default Quantity": "5",
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "5" }
+                        ],
                         "Price Multiplier": "0.2",
                         "Item Given": "Iron Helmet",
                         "Quantity": "1",
@@ -24,8 +26,9 @@
                         "Villager XP": "1"
                     },
                     {
-                        "Item Wanted": "Emerald",
-                        "Default Quantity": "9",
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "9" }
+                        ],
                         "Price Multiplier": "0.2",
                         "Item Given": "Iron Chestplate",
                         "Quantity": "1",
@@ -33,8 +36,9 @@
                         "Villager XP": "1"
                     },
                     {
-                        "Item Wanted": "Emerald",
-                        "Default Quantity": "7",
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "7" }
+                        ],
                         "Price Multiplier": "0.2",
                         "Item Given": "Iron Leggings",
                         "Quantity": "1",
@@ -42,8 +46,9 @@
                         "Villager XP": "1"
                     },
                     {
-                        "Item Wanted": "Emerald",
-                        "Default Quantity": "4",
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "4" }
+                        ],
                         "Price Multiplier": "0.2",
                         "Item Given": "Iron Boots",
                         "Quantity": "1",
@@ -53,8 +58,9 @@
                 ],
                 "Apprentice": [
                     {
-                        "Item Wanted": "Iron Ingot",
-                        "Default Quantity": "4",
+                        "Item Wanted": [
+                            { "name": "Iron Ingot", "quantity": "4" }
+                        ],
                         "Price Multiplier": "0.05",
                         "Item Given": "Emerald",
                         "Quantity": "1",
@@ -62,8 +68,9 @@
                         "Villager XP": "10"
                     },
                     {
-                        "Item Wanted": "Emerald",
-                        "Default Quantity": "36",
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "36" }
+                        ],
                         "Price Multiplier": "0.2",
                         "Item Given": "Bell",
                         "Quantity": "1",
@@ -71,8 +78,9 @@
                         "Villager XP": "5"
                     },
                     {
-                        "Item Wanted": "Emerald",
-                        "Default Quantity": "3",
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "3" }
+                        ],
                         "Price Multiplier": "0.2",
                         "Item Given": "Chainmail Leggings",
                         "Quantity": "1",
@@ -80,8 +88,9 @@
                         "Villager XP": "5"
                     },
                     {
-                        "Item Wanted": "Emerald",
-                        "Default Quantity": "1",
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
                         "Price Multiplier": "0.2",
                         "Item Given": "Chainmail Boots",
                         "Quantity": "1",
@@ -91,8 +100,9 @@
                 ],
                 "Journeyman": [
                     {
-                        "Item Wanted": "Lava Bucket",
-                        "Default Quantity": "1",
+                        "Item Wanted": [
+                            { "name": "Lava Bucket", "quantity": "1" }
+                        ],
                         "Price Multiplier": "0.05",
                         "Item Given": "Emerald",
                         "Quantity": "1",
@@ -100,8 +110,9 @@
                         "Villager XP": "20"
                     },
                     {
-                        "Item Wanted": "Diamond",
-                        "Default Quantity": "1",
+                        "Item Wanted": [
+                            { "name": "Diamond", "quantity": "1" }
+                        ],
                         "Price Multiplier": "0.05",
                         "Item Given": "Emerald",
                         "Quantity": "1",
@@ -109,8 +120,9 @@
                         "Villager XP": "20"
                     },
                     {
-                        "Item Wanted": "Emerald",
-                        "Default Quantity": "1",
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
                         "Price Multiplier": "0.2",
                         "Item Given": "Chainmail Helmet",
                         "Quantity": "1",
@@ -118,8 +130,9 @@
                         "Villager XP": "10"
                     },
                     {
-                        "Item Wanted": "Emerald",
-                        "Default Quantity": "4",
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "4" }
+                        ],
                         "Price Multiplier": "0.2",
                         "Item Given": "Chainmail Chestplate",
                         "Quantity": "1",
@@ -127,8 +140,9 @@
                         "Villager XP": "10"
                     },
                     {
-                        "Item Wanted": "Emerald",
-                        "Default Quantity": "5",
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "5" }
+                        ],
                         "Price Multiplier": "0.2",
                         "Item Given": "Shield",
                         "Quantity": "1",
@@ -138,46 +152,54 @@
                 ],
                 "Expert": [
                     {
-                        "Item Wanted": "Emerald",
-                        "Default Quantity": "19-33",
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "19-33" }
+                        ],
                         "Price Multiplier": "0.2",
                         "Item Given": "Diamond Leggings",
                         "Enchanted": true,
                         "Quantity": "1",
                         "Trades Until Disabled": "3",
-                        "Villager XP": "15"
+                        "Villager XP": "15",
+                        "Tooltip": "This item is enchanted."
                     },
                     {
-                        "Item Wanted": "Emerald",
-                        "Default Quantity": "13-27",
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "13-27" }
+                        ],
                         "Price Multiplier": "0.2",
                         "Item Given": "Diamond Boots",
                         "Enchanted": true,
                         "Quantity": "1",
                         "Trades Until Disabled": "3",
-                        "Villager XP": "15"
+                        "Villager XP": "15",
+                        "Tooltip": "This item is enchanted."
                     }
                 ],
                 "Master": [
                     {
-                        "Item Wanted": "Emerald",
-                        "Default Quantity": "13-27",
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "13-27" }
+                        ],
                         "Price Multiplier": "0.2",
                         "Item Given": "Diamond Helmet",
                         "Enchanted": true,
                         "Quantity": "1",
                         "Trades Until Disabled": "3",
-                        "Villager XP": "30"
+                        "Villager XP": "30",
+                        "Tooltip": "This item is enchanted."
                     },
                     {
-                        "Item Wanted": "Emerald",
-                        "Default Quantity": "21-35",
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "21-35" }
+                        ],
                         "Price Multiplier": "0.2",
                         "Item Given": "Diamond Chestplate",
                         "Enchanted": true,
                         "Quantity": "1",
                         "Trades Until Disabled": "3",
-                        "Villager XP": "30"
+                        "Villager XP": "30",
+                        "Tooltip": "This item is enchanted."
                     }
                 ]
             },
@@ -186,8 +208,9 @@
                 "job-block": ["Smoker", "job-block-images/smoker.png"],
                 "Novice": [
                     {
-                        "Item Wanted": "Coal",
-                        "Default Quantity": "15",
+                        "Item Wanted": [
+                            { "name": "Raw Chicken", "quantity": "14" }
+                        ],
                         "Price Multiplier": "0.05",
                         "Item Given": "Emerald",
                         "Quantity": "1",
@@ -195,40 +218,1889 @@
                         "Villager XP": "2"
                     },
                     {
-                        "Item Wanted": "Emerald",
-                        "Default Quantity": "5",
+                        "Item Wanted": [
+                            { "name": "Raw Porkchop", "quantity": "7" }
+                        ],
+                        "Price Multiplier": "0.1",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "2"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Raw Rabbit", "quantity": "6" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "2"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Rabbit Stew",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "1"
+                    }
+                ],
+                "Apprentice": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Coal", "quantity": "16" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "2"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Cooked Porkchop",
+                        "Quantity": "5",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "5"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1"}
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Cooked Chicken",
+                        "Quantity": "8",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "5"
+                    }
+                ],
+                "Journeyman": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Raw Mutton", "quantity": "7" }
+                        ],
+                        "Price Multiplier": "0.04",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "20.43224"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Raw Beef", "quantity": "10" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "20"
+                    }
+                ],
+                "Expert": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Dried Kelp Block", "quantity": "10" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "30"
+                    }
+                ],
+                "Master": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Sweet Berries", "quantity": "10" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "30"
+                    }
+                ]
+            },
+            "Cartographer": {
+                "image": "villager-images/cartographer.png",
+                "job-block": ["Cartography Table", "job-block-images/cartography_table.png"],
+                "Novice": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Paper", "quantity": "24" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "2"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "7" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Empty Map",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "1"
+                    }
+                ],
+                "Apprentice": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Glass Pane", "quantity": "11" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "10"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "13" },
+                            { "name": "Compass", "quantity": "1" }
+                        ],
                         "Price Multiplier": "0.2",
-                        "Item Given": "Iron Helmet",
+                        "Item Given": "Ocean Explorer Map",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "5"
+                    }
+                ],
+                "Journeyman": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Compass", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "20"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "14" },
+                            { "name": "Compass", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Woodland Explorer Map",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "10"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "12" },
+                            { "name": "Compass", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Trial Explorer Map",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "10"
+                    }
+                ],
+                "Expert": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "7" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Item Frame",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "15"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "3" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Blank Banner",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "15"
+                    }
+                ],
+                "Master": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "8" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Globe Banner Pattern",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "30"
+                    }
+                ]
+            },
+            "Cleric": {
+                "image": "villager-images/cleric.png",
+                "job-block": ["Brewing Stand", "job-block-images/brewing_stand.png"],
+                "Novice": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Rotten Flesh", "quantity": "32" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "2"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Redstone Dust",
+                        "Quantity": "2",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "1"
+                    }
+                ],
+                "Apprentice": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Gold Ingot", "quantity": "3" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "10"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Lapis Lazuli",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "5"
+                    }
+                ],
+                "Journeyman": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Rabbit's Foot", "quantity": "2" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "20"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "4" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Glowstone",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "10"
+                    }
+                ],
+                "Expert": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Scute", "quantity": "4" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "30"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Glass Bottle", "quantity": "9" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "30"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "5" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Ender Pearl",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "15"
+                    }
+                ],
+                "Master": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Nether Wart", "quantity": "22" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "30"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "3" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Bottle o' Enchanting",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "30"
+                    }
+                ]
+            },
+            "Farmer": {
+                "image": "villager-images/farmer.png",
+                "job-block": ["Composter", "job-block-images/composter.png"],
+                "Novice": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Wheat", "quantity": "20" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "2"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Potato", "quantity": "26" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "2"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Carrot", "quantity": "22" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "2"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Beetroot", "quantity": "15" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "2"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Bread",
+                        "Quantity": "6",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "1"
+                    }
+                ],
+                "Apprentice": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Pumpkin", "quantity": "6" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "10"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Pumpkin Pie",
+                        "Quantity": "4",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "5"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Apple",
+                        "Quantity": "4",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "5"
+                    }
+                ],
+                "Journeyman": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Melon", "quantity": "4" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "20"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "3" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Cookie",
+                        "Quantity": "18",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "10"
+                    }
+                ],
+                "Expert": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Cake",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "15"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Suspicious Stew",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "15",
+                        "Tooltip": "5 seconds of Night Vision."
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Suspicious Stew",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "15",
+                        "Tooltip": "8 seconds of Jump Boost."
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Suspicious Stew",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "15",
+                        "Tooltip": "7 seconds of Weakness."
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Suspicious Stew",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "15",
+                        "Tooltip": "6 seconds of Blindness."
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Suspicious Stew",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "15",
+                        "Tooltip": "14 seconds of Poison."
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Suspicious Stew",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "15",
+                        "Tooltip": "0.35 seconds of Saturation."
+                    }
+                ],
+                "Master": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "3" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Golden Carrot",
+                        "Quantity": "3",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "30"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "4" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Glistering Melon Slice",
+                        "Quantity": "3",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "30"
+                    }
+                ]
+            },
+            "Fisherman": {
+                "image": "villager-images/fisherman.png",
+                "job-block": ["Barrel", "job-block-images/barrel.png"],
+                "Novice": [
+                    {
+                        "Item Wanted": [
+                            { "name": "String", "quantity": "20" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "2"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Coal", "quantity": "10" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "2"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" },
+                            { "name": "Raw Cod", "quantity": "6"}
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Cooked Cod",
+                        "Quantity": "6",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "1"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "3" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Bucket of Cod",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "1"
+                    }
+                ],
+                "Apprentice": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Raw Cod", "quantity": "15" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "10"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" },
+                            { "name": "Raw Salmon", "quantity": "6"}
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Cooked Salmon",
+                        "Quantity": "6",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "5"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "2" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Campfire",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "5"
+                    }
+                ],
+                "Journeyman": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Raw Salmon", "quantity": "13" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "20"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "8-22" }
+                        ],
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Fishing Rod",
+                        "Quantity": "11",
+                        "Trades Until Disabled": "3",
+                        "Villager XP": "10",
+                        "Enchanted": true,
+                        "Tooltip": "This item is enchanted."
+                    }
+                ],
+                "Expert": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Tropical Fish", "quantity": "6" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "30"
+                    }
+                ],
+                "Master": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Pufferfish", "quantity": "4" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "30"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Boat", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "30"
+                    }
+                ]
+            },
+            "Fletcher": {
+                "image": "villager-images/fletcher.png",
+                "job-block": ["Fletching Table", "job-block-images/fletching_table.png"],
+                "Novice": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Stick", "quantity": "32" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "2"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Arrow",
+                        "Quantity": "16",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "1"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" },
+                            { "name": "Gravel", "quantity": "10"}
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Flint",
+                        "Quantity": "10",
+                        "Trades Until Disabled": "10",
+                        "Villager XP": "1"
+                    }
+                ],
+                "Apprentice": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Flint", "quantity": "26" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "10"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "2" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Bow",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "5"
+                    }
+                ],
+                "Journeyman": [
+                    {
+                        "Item Wanted": [
+                            { "name": "String", "quantity": "14" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "20"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "3" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Crossbow",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "10"
+                    }
+                ],
+                "Expert": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Feather", "quantity": "24" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "30"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "7-21" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Bow",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "3",
+                        "Villager XP": "15",
+                        "Enchanted": true,
+                        "Tooltip": "This item is enchanted."
+                    }
+                ],
+                "Master": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Tripwire Hook", "quantity": "8" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "30"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "8-22" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Crossbow",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "3",
+                        "Villager XP": "15",
+                        "Enchanted": true,
+                        "Tooltip": "This item is enchanted."
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "2" },
+                            { "name": "Arrow", "quantity": "5" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Tipped Arrow",
+                        "Quantity": "5",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "30",
+                        "Tooltip": "Tipped arrows can be the base effect, level II, or extended:\n- Arrow of Fire Resistance\n- Arrow of Harming\n- Arrow of Healing\n- Arrow of Invisibility\n- Arrow of Leaping\n- Arrow of Night Vision\n- Arrow of Poison\n- Arrow of Regeneration\n- Arrow of Slowness\n- Arrow of Strength\n- Arrow of Swiftness\n- Arrow of the Turtle Master\n- Arrow of Water Breathing\n- Arrow of Weakness\n- Arrow of Slow Falling"
+
+                    }
+                ]
+            },
+            "Leatherworker": {
+                "image": "villager-images/leatherworker.png",
+                "job-block": ["Cauldron", "job-block-images/cauldron.png"],
+                "Novice": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Leather", "quantity": "6" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "2"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "3" }
+                        ],
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Leather Pants",
                         "Quantity": "1",
                         "Trades Until Disabled": "12",
                         "Villager XP": "1"
                     },
                     {
-                        "Item Wanted": "Emerald",
-                        "Default Quantity": "9",
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "7" }
+                        ],
                         "Price Multiplier": "0.2",
-                        "Item Given": "Iron Chestplate",
+                        "Item Given": "Leather Tunic",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "1"
+                    }
+                ],
+                "Apprentice": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Flint", "quantity": "26" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "10"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "5" }
+                        ],
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Leather Cap",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "5"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "4" }
+                        ],
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Leather Boots",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "5"
+                    }
+                ],
+                "Journeyman": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Rabbit Hide", "quantity": "9" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "20"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "7" }
+                        ],
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Leather Tunic",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "1"
+                    }
+                ],
+                "Expert": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Scute", "quantity": "4" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "30"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "6" }
+                        ],
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Leather Horse Armor",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "15"
+                    }
+                ],
+                "Master": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "6" }
+                        ],
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Saddle",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "30"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "5" }
+                        ],
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Leather Cap",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "30"
+                    }
+                ]
+            },
+            "Librarian": {
+                "image": "villager-images/librarian.png",
+                "job-block": ["Lectern", "job-block-images/lectern.png"],
+                "Novice": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Paper", "quantity": "24" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "2"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "5-64" },
+                            { "name": "Book", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Enchanted Book",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "1",
+                        "Tooltip": "The enchantment is chosen randomly with equal chance of any enchantment type occurring (except for Soul Speed, Swift Sneak and Wind Burst) and equal chance to get any level of the enchantment, meaning high-level enchantments are as likely as low-level enchantments. It is possible for a librarian to sell the same book more than once. The price in emeralds depends on the enchantment level and 'treasure' status. The minimum price of a book is given by 2 + 3 * (enchantment level), while the maximum price is 6 + 13 * (enchantment level). The possible values are 5-19 emeralds for Lvl I, 8-32 for Lvl II, 11-45 for Lvl III, 14-58 for Lvl IV, and 17-71 for Lvl V. For treasure enchantments the price is doubled. The cost is capped at 64 emeralds. All values below this cap are equally probable."
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "9" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Bookshelf",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "1"
+                    }
+                ],
+                "Apprentice": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Book", "quantity": "4" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "10"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "5-64" },
+                            { "name": "Book", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Enchanted Book",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "5",
+                        "Tooltip": "The enchantment is chosen randomly with equal chance of any enchantment type occurring (except for Soul Speed, Swift Sneak and Wind Burst) and equal chance to get any level of the enchantment, meaning high-level enchantments are as likely as low-level enchantments. It is possible for a librarian to sell the same book more than once. The price in emeralds depends on the enchantment level and 'treasure' status. The minimum price of a book is given by 2 + 3 * (enchantment level), while the maximum price is 6 + 13 * (enchantment level). The possible values are 5-19 emeralds for Lvl I, 8-32 for Lvl II, 11-45 for Lvl III, 14-58 for Lvl IV, and 17-71 for Lvl V. For treasure enchantments the price is doubled. The cost is capped at 64 emeralds. All values below this cap are equally probable."
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Lantern",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "5"
+                    }
+                ],
+                "Journeyman": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Ink Sac", "quantity": "5" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "20"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "5-64" },
+                            { "name": "Book", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Enchanted Book",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "10",
+                        "Tooltip": "The enchantment is chosen randomly with equal chance of any enchantment type occurring (except for Soul Speed, Swift Sneak and Wind Burst) and equal chance to get any level of the enchantment, meaning high-level enchantments are as likely as low-level enchantments. It is possible for a librarian to sell the same book more than once. The price in emeralds depends on the enchantment level and 'treasure' status. The minimum price of a book is given by 2 + 3 * (enchantment level), while the maximum price is 6 + 13 * (enchantment level). The possible values are 5-19 emeralds for Lvl I, 8-32 for Lvl II, 11-45 for Lvl III, 14-58 for Lvl IV, and 17-71 for Lvl V. For treasure enchantments the price is doubled. The cost is capped at 64 emeralds. All values below this cap are equally probable."
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Glass",
+                        "Quantity": "4",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "10"
+                    }
+                ],
+                "Expert": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Book and Quill", "quantity": "2" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "30"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "5-64" },
+                            { "name": "Book", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Enchanted Book",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "15",
+                        "Tooltip": "The enchantment is chosen randomly with equal chance of any enchantment type occurring (except for Soul Speed, Swift Sneak and Wind Burst) and equal chance to get any level of the enchantment, meaning high-level enchantments are as likely as low-level enchantments. It is possible for a librarian to sell the same book more than once. The price in emeralds depends on the enchantment level and 'treasure' status. The minimum price of a book is given by 2 + 3 * (enchantment level), while the maximum price is 6 + 13 * (enchantment level). The possible values are 5-19 emeralds for Lvl I, 8-32 for Lvl II, 11-45 for Lvl III, 14-58 for Lvl IV, and 17-71 for Lvl V. For treasure enchantments the price is doubled. The cost is capped at 64 emeralds. All values below this cap are equally probable."
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "5" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Clock",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "15"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "4" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Compass",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "15"
+                    }
+                ],
+                "Master": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "20" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Name Tag",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "30"
+                    }
+                ]
+            },
+            "Mason": {
+                "image": "villager-images/mason.png",
+                "job-block": ["Stonecutter", "job-block-images/stonecutter.png"],
+                "Novice": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Clay Ball", "quantity": "10" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "2"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Brick",
+                        "Quantity": "10",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "1"
+                    }
+                ],
+                "Apprentice": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Stone", "quantity": "20" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "10"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Chiseled Stone Bricks",
+                        "Quantity": "4",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "5"
+                    }
+                ],
+                "Journeyman": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Granite", "quantity": "16" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "20"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Andesite", "quantity": "16" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "20"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Diorite", "quantity": "16" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "20"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Polished Andesite",
+                        "Quantity": "4",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "10"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Polished Granite",
+                        "Quantity": "4",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "10"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Polished Diorite",
+                        "Quantity": "4",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "10"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Dripstone Block",
+                        "Quantity": "4",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "10"
+                    }
+                ],
+                "Expert": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Nether Quartz", "quantity": "12" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "30"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Terracotta",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "15",
+                        "Tooltip": "Can be any colour Coloured terracotta."
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Glazed Terracotta",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "15",
+                        "Tooltip": "Can be any colour Glazed terracotta."
+                    }
+                ],
+                "Master": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Quartz Pillar",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "30"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Block of Quartz",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "30"
+                    }
+                ]
+            },
+            "Shepherd": {
+                "image": "villager-images/shepherd.png",
+                "job-block": ["Loom", "job-block-images/loom.png"],
+                "Novice": [
+                    {
+                        "Item Wanted": [
+                            { "name": "White Wool", "quantity": "18" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "2"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Brown Wool", "quantity": "18" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "2"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Black Wool", "quantity": "18" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "2"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Gray Wool", "quantity": "18" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "2"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "2" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Shears",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "1"
+                    }
+                ],
+                "Apprentice": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Black Dye", "quantity": "12" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "10"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Gray Dye", "quantity": "12" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "10"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Lime Dye", "quantity": "12" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "10"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Light Blue Dye", "quantity": "12" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "10"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "White Dye", "quantity": "12" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "10"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Wool",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "5",
+                        "Tooltip": "Can be any colour Wool."
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Carpet",
+                        "Quantity": "4",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "5",
+                        "Tooltip": "Can be any colour Carpet."
+                    }
+                ],
+                "Journeyman": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Red Dye", "quantity": "12" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "20"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Light Gray Dye", "quantity": "12" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "20"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Pink Dye", "quantity": "12" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "20"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Yellow Dye", "quantity": "12" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "20"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Orange Dye", "quantity": "12" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "20"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "3" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Bed",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "10",
+                        "Tooltip": "Can be any colour Bed."
+                    }
+                ],
+                "Expert": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Green Dye", "quantity": "12" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "30"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Brown Dye", "quantity": "12" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "30"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Blue Dye", "quantity": "12" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "30"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Purple Dye", "quantity": "12" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "30"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Cyan Dye", "quantity": "12" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "30"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Magenta Dye", "quantity": "12" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "30"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "3" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Blank Banner",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "15",
+                        "Tooltip": "Can be any colour Blank Banner."
+                    }
+                ],
+                "Master": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "2" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Painting",
+                        "Quantity": "3",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "30"
+                    }
+                ]
+            },
+            "Toolsmith": {
+                "image": "villager-images/toolsmith.png",
+                "job-block": ["Smithing Table", "job-block-images/smithing_table.png"],
+                "Novice": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Coal", "quantity": "15" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "2"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Stone Axe",
                         "Quantity": "1",
                         "Trades Until Disabled": "12",
                         "Villager XP": "1"
                     },
                     {
-                        "Item Wanted": "Emerald",
-                        "Default Quantity": "7",
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
                         "Price Multiplier": "0.2",
-                        "Item Given": "Iron Leggings",
+                        "Item Given": "Stone Shovel",
                         "Quantity": "1",
                         "Trades Until Disabled": "12",
                         "Villager XP": "1"
                     },
                     {
-                        "Item Wanted": "Emerald",
-                        "Default Quantity": "4",
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
                         "Price Multiplier": "0.2",
-                        "Item Given": "Iron Boots",
+                        "Item Given": "Stone Pickaxe",
                         "Quantity": "1",
                         "Trades Until Disabled": "12",
                         "Villager XP": "1"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Stone Hoe",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "1"
+                    }
+                ],
+                "Apprentice": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Iron Ingot", "quantity": "4" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "10"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "36" }
+                        ],
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Bell",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "5"
+                    }
+                ],
+                "Journeyman": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Flint", "quantity": "30" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "20"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "6-20" }
+                        ],
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Iron Axe",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "3",
+                        "Villager XP": "10",
+                        "Enchanted": true,
+                        "Tooltip": "This item is enchanted."
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "7-21" }
+                        ],
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Iron Shovel",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "3",
+                        "Villager XP": "10",
+                        "Enchanted": true,
+                        "Tooltip": "This item is enchanted."
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "8-22" }
+                        ],
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Iron Pickaxe",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "3",
+                        "Villager XP": "10",
+                        "Enchanted": true,
+                        "Tooltip": "This item is enchanted."
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "4" }
+                        ],
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Diamond Hoe",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "3",
+                        "Villager XP": "10"
+                    }
+                ],
+                "Expert": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Diamond", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "30"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "17-31" }
+                        ],
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Diamond Axe",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "3",
+                        "Villager XP": "15",
+                        "Enchanted": true,
+                        "Tooltip": "This item is enchanted."
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "10-24" }
+                        ],
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Diamond Shovel",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "3",
+                        "Villager XP": "15",
+                        "Enchanted": true,
+                        "Tooltip": "This item is enchanted."
+                    }
+                ],
+                "Master": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "18-32" }
+                        ],
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Diamond Pickaxe",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "3",
+                        "Villager XP": "30",
+                        "Enchanted": true,
+                        "Tooltip": "This item is enchanted."
+                    }
+                ]
+            },
+            "Weaponsmith": {
+                "image": "villager-images/weaponsmith.png",
+                "job-block": ["Grindstone", "job-block-images/grindstone.png"],
+                "Novice": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Coal", "quantity": "15" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "2"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "3" }
+                        ],
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Iron Axe",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "1"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "7-21" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Iron Sword",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "3",
+                        "Villager XP": "1",
+                        "Enchanted": true,
+                        "Tooltip": "This item is enchanted."
+                    }
+                ],
+                "Apprentice": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Iron Ingot", "quantity": "4" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "10"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "36" }
+                        ],
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Bell",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "5"
+                    }
+                ],
+                "Journeyman": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Flint", "quantity": "24" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "20"
+                    }
+                ],
+                "Expert": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Diamond", "quantity": "1" }
+                        ],
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "30"
+                    },
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "17-31" }
+                        ],
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Diamond Axe",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "3",
+                        "Villager XP": "15",
+                        "Enchanted": true,
+                        "Tooltip": "This item is enchanted."
+                    }
+                ],
+                "Master": [
+                    {
+                        "Item Wanted": [
+                            { "name": "Emerald", "quantity": "13-27" }
+                        ],
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Diamond Sword",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "3",
+                        "Villager XP": "30",
+                        "Enchanted": true,
+                        "Tooltip": "This item is enchanted."
                     }
                 ]
             }
