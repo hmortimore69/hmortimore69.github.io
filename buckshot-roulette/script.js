@@ -1,5 +1,3 @@
-
-
 document.addEventListener('DOMContentLoaded', function() {
     const gameProgression = document.getElementById('game-progression');
     const newRoundForm = document.getElementById('shotgun-rounds-form');

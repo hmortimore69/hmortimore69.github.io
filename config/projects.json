@@ -2,11 +2,16 @@
   {
     "image": "images/buckshotRoulette.jpg",
     "link": "buckshot-roulette/index.html",
-    "description": "Buckshot Roulette Assistant"
+    "description": "Buckshot Roulette Tool"
   },
   {
     "image": "images/wordle.jpg",
     "link": "wordle/index.html",
-    "description": "Wordle Assistant"
+    "description": "Wordle Tool"
+  },
+  {
+    "image": "images/minecraft.jpg",
+    "link": "minecraft-trades/index.html",
+    "description": "Minecraft Villager Trading Guide"
   }
 ]

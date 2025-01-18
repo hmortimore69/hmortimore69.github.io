@@ -1,0 +1,243 @@
+{
+    "java": {
+        "1.14+": {
+            "Armorer": {
+                "image": "villager-images/armorer.png",
+                "job-block": ["Blast Furnace", "job-block-images/blast_furnace.png"],
+                "Novice": [
+                    {
+                        "Item Wanted": "Coal",
+                        "Default Quantity": "15",
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "2"
+                    },
+                    {
+                        "Item Wanted": "Emerald",
+                        "Default Quantity": "5",
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Iron Helmet",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "1"
+                    },
+                    {
+                        "Item Wanted": "Emerald",
+                        "Default Quantity": "9",
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Iron Chestplate",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "1"
+                    },
+                    {
+                        "Item Wanted": "Emerald",
+                        "Default Quantity": "7",
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Iron Leggings",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "1"
+                    },
+                    {
+                        "Item Wanted": "Emerald",
+                        "Default Quantity": "4",
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Iron Boots",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "1"
+                    }
+                ],
+                "Apprentice": [
+                    {
+                        "Item Wanted": "Iron Ingot",
+                        "Default Quantity": "4",
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "10"
+                    },
+                    {
+                        "Item Wanted": "Emerald",
+                        "Default Quantity": "36",
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Bell",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "5"
+                    },
+                    {
+                        "Item Wanted": "Emerald",
+                        "Default Quantity": "3",
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Chainmail Leggings",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "5"
+                    },
+                    {
+                        "Item Wanted": "Emerald",
+                        "Default Quantity": "1",
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Chainmail Boots",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "5"
+                    }
+                ],
+                "Journeyman": [
+                    {
+                        "Item Wanted": "Lava Bucket",
+                        "Default Quantity": "1",
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "20"
+                    },
+                    {
+                        "Item Wanted": "Diamond",
+                        "Default Quantity": "1",
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "20"
+                    },
+                    {
+                        "Item Wanted": "Emerald",
+                        "Default Quantity": "1",
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Chainmail Helmet",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "10"
+                    },
+                    {
+                        "Item Wanted": "Emerald",
+                        "Default Quantity": "4",
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Chainmail Chestplate",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "10"
+                    },
+                    {
+                        "Item Wanted": "Emerald",
+                        "Default Quantity": "5",
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Shield",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "10"
+                    }
+                ],
+                "Expert": [
+                    {
+                        "Item Wanted": "Emerald",
+                        "Default Quantity": "19-33",
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Diamond Leggings",
+                        "Enchanted": true,
+                        "Quantity": "1",
+                        "Trades Until Disabled": "3",
+                        "Villager XP": "15"
+                    },
+                    {
+                        "Item Wanted": "Emerald",
+                        "Default Quantity": "13-27",
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Diamond Boots",
+                        "Enchanted": true,
+                        "Quantity": "1",
+                        "Trades Until Disabled": "3",
+                        "Villager XP": "15"
+                    }
+                ],
+                "Master": [
+                    {
+                        "Item Wanted": "Emerald",
+                        "Default Quantity": "13-27",
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Diamond Helmet",
+                        "Enchanted": true,
+                        "Quantity": "1",
+                        "Trades Until Disabled": "3",
+                        "Villager XP": "30"
+                    },
+                    {
+                        "Item Wanted": "Emerald",
+                        "Default Quantity": "21-35",
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Diamond Chestplate",
+                        "Enchanted": true,
+                        "Quantity": "1",
+                        "Trades Until Disabled": "3",
+                        "Villager XP": "30"
+                    }
+                ]
+            },
+            "Butcher": {
+                "image": "villager-images/butcher.png",
+                "job-block": ["Smoker", "job-block-images/smoker.png"],
+                "Novice": [
+                    {
+                        "Item Wanted": "Coal",
+                        "Default Quantity": "15",
+                        "Price Multiplier": "0.05",
+                        "Item Given": "Emerald",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "16",
+                        "Villager XP": "2"
+                    },
+                    {
+                        "Item Wanted": "Emerald",
+                        "Default Quantity": "5",
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Iron Helmet",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "1"
+                    },
+                    {
+                        "Item Wanted": "Emerald",
+                        "Default Quantity": "9",
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Iron Chestplate",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "1"
+                    },
+                    {
+                        "Item Wanted": "Emerald",
+                        "Default Quantity": "7",
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Iron Leggings",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "1"
+                    },
+                    {
+                        "Item Wanted": "Emerald",
+                        "Default Quantity": "4",
+                        "Price Multiplier": "0.2",
+                        "Item Given": "Iron Boots",
+                        "Quantity": "1",
+                        "Trades Until Disabled": "12",
+                        "Villager XP": "1"
+                    }
+                ]
+            }
+        },
+        "1.8-1.13.2": {},
+        "1.7.10-": {}
+    },
+    "bedrock": {
+        "1.11+": {},
+        "1.10-": {}
+    }
+}

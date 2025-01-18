@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: Mulish, sans-serif;
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    color: #1b1b1b;
+}
+  
+header {
+    margin: 0px 20px;
+    padding: 10px 10px 0px 10px;
+}
+
+.form-div {
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    padding: 5px 10px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+#minecraft-config-form {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    top: 0;
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
+}
+
+.sticky {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow when sticky */
+}
+
+select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    padding: 8px 16px;
+    background-color: #3c8527;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #57be38;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+.villager-info-table td {
+    text-align: left; 
+}
+
+.villager-info-table th,
+.villager-info-table td:first-child {
+    width: 150px; 
+    text-align: left;
+}
+
+.villager-img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+img {
+    max-width: 40px; 
+    max-height: 40px;
+    margin-right: 10px;
+    vertical-align: middle; 
+}
+
+h3, h4 {
+    padding: 0px 10px;
+}
+
+.job-block-img {
+    max-width: 30px; 
+    max-height: 30px;
+}
+
+.villager-container {
+    margin-bottom: 30px;
+}
+
+.header {
+    font-weight: bold;
+    background-color: #f4f4f4;
+}
+
+.shimmer-text {
+    display: inline-block;
+    position: relative;
+    font-weight: bold;
+    color: transparent;
+    background-image: linear-gradient(90deg, #00c6ff, #0072ff, #00c6ff); /* Blue hues */
+    background-size: 200% 100%;
+    background-position: -100% 0;
+    -webkit-background-clip: text; /* Apply gradient to text */
+    background-clip: text;
+    animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: -100% 0;
+    }
+}
