@@ -123,7 +123,7 @@ document.addEventListener("DOMContentLoaded", function() {
             const villagerContainer = document.createElement("div");
             villagerContainer.classList.add("villager-container");
             const tableHTML = `
-                <h3 id="${villagerInfo["job-block"][0]}">${villager}</h3>    
+                <h3 id="${villagerInfo["job-block"][0]}">${villager}</h3>   
                 <table class="villager-info-table">
                     <tr>
                         <th>Image</th>
@@ -137,17 +137,25 @@ document.addEventListener("DOMContentLoaded", function() {
             `;
             villagerContainer.innerHTML = tableHTML;
     
-            // Loop through all trade types (e.g., "Novice", "Apprentice", etc.)
+            const tradeTypeColors = {
+                "Novice": "#FFB000",
+                "Apprentice": "#00ccff",
+                "Journeyman": "#40ED62",  
+                "Expert": "#CC5AC6", 
+                "Master": "#ff5733", 
+            };
+
             const tradeTypes = Object.keys(villagerInfo);
             tradeTypes.forEach(tradeType => {
                 if (tradeType !== "image" && tradeType !== "job-block") {
                     const tradeData = villagerInfo[tradeType];
-    
+                    const tradeTypeColor = tradeTypeColors[tradeType] || "#f0f8ff";
+
                     const tradeTableHTML = `
-                        <h4>${tradeType} Trades:</h4>
-                        <table>
+                        <h4 style="border-left: 5px solid ${tradeTypeColor};">${tradeType} Trades:</h4>
+                        <table class="trade-table">
                             <thead>
-                                <tr class="header">
+                                <tr class="header" style="background-color: ${tradeTypeColor};">
                                     <th>Items Wanted</th>
                                     <th>Default Quantity</th>
                                     <th>Price Multiplier</th>

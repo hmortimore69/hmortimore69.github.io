@@ -103,8 +103,19 @@ tr, td {
     height: 100%;
 }
 
-th {
-    background-color: #f4f4f4;
+/* Trade Table Adjustments */
+#trade-table {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.trade-table th, .trade-table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
 }
 
 .villager-info-table td {
@@ -120,31 +131,40 @@ th {
 .villager-img {
     max-width: 100px;
     max-height: 100px;
+    border-radius: 5px; /* Add rounded corners for a softer look */
+    border: 1px solid #ddd;
 }
 
-img {
-    max-width: 40px; 
+.job-block-img, img {
+    max-width: 40px;
     max-height: 40px;
     margin-right: 10px;
-    vertical-align: middle; 
+    vertical-align: middle;
+    transition: transform 0.2s ease; /* Add a hover effect for interactivity */
+}
+
+img:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Section Spacing */
+.villager-container {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    background: #fafafa; /* Subtle background color to differentiate sections */
 }
 
 h3, h4 {
-    padding: 0px 10px;
-}
-
-.job-block-img {
-    max-width: 30px; 
-    max-height: 30px;
-}
-
-.villager-container {
-    margin-bottom: 30px;
+    padding: 5px 10px;
+    margin: 10px 0;
 }
 
 .header {
     font-weight: bold;
     background-color: #f4f4f4;
+    text-align: center;
 }
 
 /* Tooltip container */
