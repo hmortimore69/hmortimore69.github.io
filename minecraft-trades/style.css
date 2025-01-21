@@ -22,6 +22,12 @@ header {
     z-index: 100;
 }
 
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .form-div {
     display: flex;
     align-items: center;
@@ -222,4 +228,106 @@ h3, h4 {
     100% {
         background-position: -100% 0;
     }
+}
+
+/* Dark Mode */
+.minimal-toggle {
+    width: 50px;
+    height: 25px;
+    background-color: #ccc; 
+    border-radius: 25px;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+.minimal-toggle::before {
+    content: '';
+    width: 21px;
+    height: 21px;
+    background-color: white; 
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+input[type="checkbox"]:checked + .minimal-toggle {
+    background-color: #4caf50; 
+}
+
+input[type="checkbox"]:checked + .minimal-toggle::before {
+    transform: translateX(25px);
+    background-color: #ffffff; 
+}
+
+.minimal-toggle:hover::before {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode {
+    background-color: #1b1b1b;
+    color: #ffffff;
+}
+
+body.dark-mode #trading-information,
+body.dark-mode .form-div {
+    background-color: #333333;
+}
+
+body.dark-mode #villager-matrix {
+    border-color: #555;
+    background-color: #2c2c2c;
+}
+
+body.dark-mode .job-block-matrix-img {
+    border-color: #444;
+    background-color: #333;
+}
+
+body.dark-mode .job-block-matrix-img:hover {
+    border-color: #76c256;
+}
+
+body.dark-mode #trade-table {
+    border-color: #444;
+    background-color: #2c2c2c;
+}
+
+body.dark-mode table {
+    background-color: #2c2c2c; /* Dark table background */
+    border-color: #444; /* Dark table border */
+}
+
+body.dark-mode th, 
+body.dark-mode td {
+    background-color: #333; /* Slightly lighter for contrast */
+    border-color: #555; /* Border color for cells */
+    color: #ddd; /* Text color for better readability */
+}
+
+body.dark-mode .trade-table th, 
+body.dark-mode .trade-table td {
+    background-color: #3b3b3b; /* Slightly different shade for trade tables */
+}
+
+body.dark-mode .tooltip::after {
+    background-color: #444;
+    color: #ddd;
+}
+
+body.dark-mode .villager-container {
+    border-color: #444;
+    background-color: #2c2c2c;
+    color: #ddd;
+}
+
+body.dark-mode #navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 700;
 }

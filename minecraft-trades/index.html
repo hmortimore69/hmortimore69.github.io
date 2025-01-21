@@ -11,23 +11,33 @@
 </head>
 <body>
     <header>
-        <h6>Last Update: 18th January 2025</h6>
+        <h6>Last Update: 21st January 2025</h6>
         <center><h1>Minecraft Trading Guide</h1></center>
     </header>
     <section id="trading-information">
-        <div class="form-div">
-            <form class="minecraft-config-form" id="minecraft-config-form">            
-                <label for="minecraft-edition">Minecraft Edition</label>
-                <select id="minecraft-edition-select" name="minecraft-edition" required>
-                    <option value="java">Java</option>
-                    <option value="bedrock">Bedrock</option>
-                </select>
+        <div class="form-container">
+            <div class="form-div">
+                <form class="minecraft-config-form" id="minecraft-config-form">            
+                    <label for="minecraft-edition">Minecraft Edition</label>
+                    <select id="minecraft-edition-select" name="minecraft-edition" required>
+                        <option value="java">Java</option>
+                        <option value="bedrock">Bedrock</option>
+                    </select>
 
-                <label for="minecraft-version">Minecraft Version</label>
-                <select id="minecraft-version-select" name="minecraft-version" required>
+                    <label for="minecraft-version">Minecraft Version</label>
+                    <select id="minecraft-version-select" name="minecraft-version" required>
 
-                <input type="submit" value="Go" hidden>
-            </form>
+                    <input type="submit" value="Go" hidden>
+                </form>
+            </div>
+
+            <div style="display: flex; align-items: center; gap: 10px; margin: 10px; white-space: nowrap;">
+                <label for="dark-mode-toggle" style="cursor: pointer; display: flex; align-items: center;">
+                    <input type="checkbox" id="dark-mode-toggle" style="display: none;">
+                    <span class="minimal-toggle"></span>
+                    <span style="margin-left: 10px; font-size: 16px; color: inherit;">Dark Mode</span>
+                </label>
+            </div>
         </div>
 
         <div id="villager-matrix"></div>

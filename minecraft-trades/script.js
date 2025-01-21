@@ -4,6 +4,9 @@ document.addEventListener("DOMContentLoaded", function() {
     const versionSelect = document.getElementById("minecraft-version-select");
     const villagerDataDiv = document.getElementById("villager-data");
 
+    const toggle = document.getElementById('dark-mode-toggle');
+    const isDarkMode = localStorage.getItem('dark-mode') === 'true';
+
     let minecraftData = {};
 
     // Fetch trades data from the JSON file
@@ -26,6 +29,18 @@ document.addEventListener("DOMContentLoaded", function() {
                 minecraftForm.classList.remove('sticky');
             }
         });
+    
+    if (isDarkMode) {
+        document.body.classList.add('dark-mode');
+        toggle.checked = true;
+    }
+
+    toggle.addEventListener('change', () => {
+        const isChecked = toggle.checked;
+        document.body.classList.toggle('dark-mode', isChecked);
+        
+        localStorage.setItem('dark-mode', isChecked);
+    });
 
     function populateVersionOptions() {
         const selectedEdition = editionSelect.value;
