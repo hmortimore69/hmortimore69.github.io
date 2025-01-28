@@ -13,5 +13,10 @@
     "image": "images/minecraft.jpg",
     "link": "minecraft-trades/index.html",
     "description": "Minecraft Villager Trading Guide"
+  },
+  {
+    "image": "",
+    "link": "fourier-visualisation/index.html",
+    "description": "Fourier Visualisation Tool"
   }
 ]

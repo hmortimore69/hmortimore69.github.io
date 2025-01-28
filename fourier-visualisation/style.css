@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Mulish, sans-serif;
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    color: #1b1b1b;
+}
+
+header {
+    margin: 0px 20px;
+    padding: 10px 10px 0px 10px;
+}

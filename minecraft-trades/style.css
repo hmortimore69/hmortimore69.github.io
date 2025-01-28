@@ -300,14 +300,20 @@ body.dark-mode table {
     border-color: #444; /* Dark table border */
 }
 
-body.dark-mode th, 
 body.dark-mode td {
     background-color: #333; /* Slightly lighter for contrast */
-    border-color: #555; /* Border color for cells */
     color: #ddd; /* Text color for better readability */
 }
 
-body.dark-mode .trade-table th, 
+body.dark-mode .trade-table th {
+    color: black;
+}
+
+body.dark-mode th, 
+body.dark-mode td {
+    border-color: #555; /* Border color for cells */
+}
+
 body.dark-mode .trade-table td {
     background-color: #3b3b3b; /* Slightly different shade for trade tables */
 }

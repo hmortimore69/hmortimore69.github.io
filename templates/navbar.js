@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
         <li><a href="../buckshot-roulette/index.html">Buckshot Roulette Tool</a></li>
         <li><a href="../wordle/index.html">Wordle Tool</a></li>
         <li><a href="../minecraft-trades/index.html">Minecraft Trading Guide</a></li>
+        <li><a href="../fourier-visualisation/index.html">Fourier Visualisation</a></li>
       </ul>
     `;
   
